@@ -1,0 +1,348 @@
+ @font-face {
+font-family: "Montserrat";
+src: url("Montserrat-Regular.ttf");
+  
+}
+ body {
+	direction: ltr;
+ 	text-align: right;
+   
+    font-weight: 400;
+     color: #212529;
+    text-align: left;
+           font-weight: 300;
+    font-size: 16px	;
+ }
+ 
+
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;}
+
+a.hrefLanderz{
+    font-weight: bold;
+    color: black;
+    font-size: 36px;
+}
+
+a.nav-link {
+     font-size: 24px;
+        padding: 5px 20px;
+    color: #000;
+    display: inline-block;
+}
+
+ 
+
+.dot{
+         color: #00d2b5;
+}
+
+.card.mb-4.shadow-sm:hover {
+    background: #00d2b5;
+    -webkit-box-shadow: 0 4px 20px -5px rgba(0, 210, 181, 0.4);
+    box-shadow: 0 4px 20px -5px rgba(0, 210, 181, 0.4);
+    top: -7px; }
+ 
+
+.card.mb-4.shadow-sm:hover span {
+      color: #fff; }
+
+.card.mb-4.shadow-sm:hover a {
+      color: #fff; }
+
+  .card.mb-4.shadow-sm:hover i {
+      color: #fff;
+    background: #00d2b5;
+}
+
+a.btn.btn-light.my-3{
+border-width: 2px;
+    background: #00d2b5;
+    border-color: #00d2b5;
+    color: #fff;
+        border-radius: 30px;
+}
+}
+
+.card.mb-4.shadow-sm {
+  padding: 30px;
+  background: #fff;
+  border-radius: 5px;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  position: relative;
+  top: 0; }
+ Section p {
+    color: #6c757d;
+     font-weight: 300;
+font-size:15px;
+}
+
+.mainSection h1 {
+    font-weight: bold;
+}
+
+h2.FeaturesText.text-center.mb-5.my-3{
+    color: #000;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.album.py-5{
+    background-color:#f6f6f6;
+ }
+
+a.learnMore{
+         color: #00d2b5;
+}
+ 
+p.card-text{
+    font-weight: 300;
+    font-size: 15px;
+}
+ i.fas.fa-sync-alt {
+    text-align: left;
+             color: #00d2b5;
+
+    padding:0px;
+    }
+
+.card.mb-4.shadow-sm  {
+    padding: 30px;
+    background: #fff;
+    border-radius: 5px;
+            border-color: white;
+}
+
+
+
+.card.mb-4.shadow-sm:hover {
+    margin:-8px;
+  background-color: #00d2b5;
+color: white;
+}
+ 
+span.prototypesText{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+i.fa.fa-check{
+        color: #8bc34a;
+}
+
+.speechBox {
+    box-shadow: 0 0 30px 0 rgba(172, 172, 172, 0.16);
+    background-color: #ffffff;
+    padding: 30px 35px;
+    margin-top: 20px;
+ }
+
+span.nameSpeech
+{
+    display: grid;
+}
+img.imgspeechBox {
+    border-radius: 50%;
+    size: 23px;
+    width: 48px;
+    height: 48px;
+}
+
+
+section.AboutUsSection{
+    background-color:#f6f6f6; 
+    height: 87%;
+}
+
+span.prototypes{
+        color: #000;
+    font-size: 32px;
+}
+
+/* Carousel */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color:#00d2b5;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+ 
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+img.img-fluid.mb-3.shadow {
+    border-radius: 50%;
+    width: 12pxx;
+    height: 120px;
+    text-align: center;
+}
+
+span.BlogText{
+        color: #000;
+    font-size: 30px;
+}
+
+.news{
+             color: #00d2b5;
+}
+
+.Sententes{
+        color: #b3b3b3;
+
+}
+
+a.text-muted{
+             color: #00d2b5 !important;
+
+}
+.Form-section {
+    padding-top: 120px;
+        background-color: #f6f6f6;
+}
+
+section.blogSection {
+    padding-top: 95px;
+        margin-bottom: 75px;
+}
+
+input.btn.btn-primary.mr-2.mb-2 {
+    border-width: 3px;
+    background: #00d2b5;
+    border-color: #00d2b5;
+        font-size: 16px;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+.color-blue{
+                 color: #00d2b5;
+}
+
+p.Copyright {
+    color:gray;
+}
+
+
+p.blogcard-text {
+        color:gray;
+
+}
+
+h2.section-title.mb-3{
+    color: #000;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.testimonial {
+    max-width: 800px;
+    margin: 0 auto !important;
+    text-align: center;
+}
+.testimonial p{
+    font-size: 1.5rem;
+    font-style: italic;
+            color:gray;
+
+}
+
+p.lorem.my-3.mb-4{
+                color:gray;
+
+}
+.prototext {
+    color: gray;
+  
+}
+ 
