@@ -346,3 +346,9 @@ p.lorem.my-3.mb-4{
   
 }
  
+ol.carousel-indicators  li{
+border-radius: 50%;   
+    background-color: #00d2b5;
+  width: 15px;
+  height: 15px;
+  }
