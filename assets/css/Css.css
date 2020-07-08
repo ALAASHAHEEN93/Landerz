@@ -1,8 +1,11 @@
- @font-face {
-font-family: "Montserrat";
-src: url("Montserrat-Regular.ttf");
-  
+
+@font-face {
+  font-family: 'montserratbold';
+  src: url('assets\font\Montserrat-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
 }
+
  body {
 	direction: ltr;
  	text-align: right;
@@ -12,6 +15,7 @@ src: url("Montserrat-Regular.ttf");
     text-align: left;
            font-weight: 300;
     font-size: 16px	;
+    font-family: montserratbold;
  }
  
 
@@ -156,6 +160,10 @@ img.imgspeechBox {
     height: 48px;
 }
 
+}
+section.prototypesSection {
+    text-align: initial;
+}
 
 section.AboutUsSection{
     background-color:#f6f6f6; 
@@ -287,8 +295,8 @@ a.text-muted{
 
 }
 .Form-section {
-    padding-top: 120px;
-        background-color: #f6f6f6;
+padding-top: 88px;
+    background-color: #f6f6f6;
 }
 
 section.blogSection {
@@ -313,7 +321,9 @@ p.Copyright {
     color:gray;
 }
 
-
+img.img-mainSection{
+    max-width: 100%;
+}
 p.blogcard-text {
         color:gray;
 
@@ -352,3 +362,98 @@ border-radius: 50%;
   width: 15px;
   height: 15px;
   }
+
+/* Animation */
+
+#col-md-4 {
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#blogSection{
+ animation: fadeOut ease 8s;
+  -webkit-animation: fadeOut ease 8s;
+  -moz-animation: fadeOut ease 8s;
+  -o-animation: fadeOut ease 8s;
+  -ms-animation: fadeOut ease 8s;
+}
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-o-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-ms-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+}
